@@ -5,9 +5,20 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Letra IA Color</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
+    <script src="//unpkg.com/brain.js"></script>
 </head>
-<body>
-    
+<body id="bodyColor">
+    <h1 id="letra">Age Color IA</h1>
+    <p>Selecciona tu edad y te daré un color increible para ti</p>
+    <form action="">
+        <input type="range" min="1" max="100" value="50" class="slider" id="myRange">
+    </form>
+    <p class="edadEs">Tu edad es:</p>
+    <p id="edad" class="edad"></p>
+    <script src="./main.js"></script>
 </body>
 </html>
